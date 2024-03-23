@@ -1,0 +1,65 @@
+TEAM,R64,TEAM,R32,TEAM,S16,TEAM,E8,TEAM,F4,TEAM,NCG
+Alabama,96.60%,Alabama,88.40%,Alabama,76.40%,Alabama,56.50%,Alabama,40.30%,Alabama,25.40%
+Purdue,96.10%,Kansas,84.20%,Kansas,68.70%,Kansas,45.30%,Houston,28.00%,Kansas,11.70%
+Kansas,95.30%,UCLA,82.40%,Houston,64.60%,Houston,43.20%,Kansas,21.30%,Houston,10.70%
+Houston,95.20%,Houston,81.80%,Texas,59.00%,Purdue,38.80%,Purdue,15.00%,Purdue,8.10%
+UCLA,93.70%,Arizona,80.40%,Arizona,54.70%,Texas,27.30%,Texas,13.10%,Texas,6.20%
+Arizona,93.40%,Purdue,79.00%,Purdue,52.40%,UCLA,19.90%,UCLA,10.80%,UCLA,5.60%
+Texas,93.00%,Texas,74.50%,Marquette,51.60%,Marquette,18.60%,Arizona,10.20%,Arizona,4.40%
+Gonzaga,92.70%,Marquette,73.20%,UCLA,49.70%,Arizona,18.60%,Gonzaga,8.50%,Gonzaga,4.10%
+Marquette,92.40%,Gonzaga,71.50%,Gonzaga,33.50%,Gonzaga,15.80%,Marquette,7.20%,Duke,3.20%
+Baylor,90.30%,Xavier,63.90%,Baylor,24.90%,Duke,14.20%,Duke,6.00%,Marquette,3.10%
+Kansas St,90.30%,Baylor,62.90%,Duke,22.60%,Baylor,9.20%,Baylor,4.20%,UConn,1.60%
+Xavier,90.30%,UConn,61.60%,Kansas St,19.70%,Xavier,7.30%,UConn,3.40%,Baylor,1.40%
+UConn,85.60%,Virginia,59.20%,Xavier,18.40%,UConn,7.30%,Tennessee,2.90%,Tennessee,1.20%
+TCU,84.40%,Kansas St,55.70%,UConn,15.50%,Tennessee,7.00%,Xavier,2.20%,Kentucky,1.10%
+Virginia,84.30%,Indiana,52.00%,Kentucky,14.00%,Kansas St,7.00%,Indiana,2.20%,Indiana,1.00%
+Tennessee,83.70%,Duke,46.10%,Indiana,13.40%,Indiana,5.90%,Kansas St,2.20%,Kansas St,0.80%
+Indiana,82.50%,Tennessee,42.00%,Tennessee,12.50%,Virginia,4.70%,Virginia,2.00%,Xavier,0.80%
+Duke,81.90%,Miami,34.20%,Virginia,11.10%,Kentucky,4.50%,Kentucky,1.90%,Virginia,0.80%
+Iowa State,77.60%,Kentucky,31.80%,Miami,10.80%,Miami,4.20%,Miami,1.30%,Miami,0.60%
+Miami,77.10%,Iowa State,26.10%,Creighton,9.00%,Texas A&M,2.80%,Texas A&M,0.90%,Michigan St,0.50%
+Kentucky,72.30%,San Diego St,25.00%,TCU,8.50%,Memphis,2.70%,TCU,0.90%,Texas A&M,0.40%
+Memphis,72.10%,Creighton,24.50%,Texas A&M,7.60%,TCU,2.60%,Memphis,0.90%,Memphis,0.40%
+San Diego St,69.70%,Saint Mary's,23.80%,Michigan St,6.60%,Creighton,2.40%,Michigan St,0.90%,Arkansas,0.40%
+Saint Mary's,68.40%,TCU,22.00%,Iowa State,6.60%,Michigan St,2.10%,Creighton,0.80%,TCU,0.40%
+Creighton,67.90%,Michigan St,15.20%,Memphis,6.40%,Iowa State,2.00%,Arkansas,0.70%,Creighton,0.30%
+Northwestern,64.70%,Memphis,14.90%,Saint Mary's,4.80%,Saint Mary's,1.70%,Iowa State,0.60%,Missouri,0.30%
+Missouri,64.10%,Texas A&M,13.20%,Missouri,4.50%,Arkansas,1.70%,Saint Mary's,0.60%,Penn State,0.30%
+Michigan St,61.50%,Missouri,11.30%,Penn State,4.50%,San Diego St,1.60%,San Diego St,0.60%,Iowa State,0.30%
+Texas A&M,60.30%,Charleston,10.50%,San Diego St,4.30%,Penn State,1.50%,Penn State,0.60%,Auburn,0.30%
+Arkansas,58.10%,Northwestern,9.60%,Arkansas,4.20%,Auburn,1.40%,Auburn,0.60%,San Diego St,0.30%
+Maryland,54.40%,Penn State,9.30%,Auburn,3.60%,Missouri,1.30%,Missouri,0.50%,West Virginia,0.30%
+Iowa,52.60%,Providence,9.30%,Iowa,3.50%,Iowa,1.30%,Iowa,0.50%,Saint Mary's,0.20%
+Auburn,47.40%,NC State,8.90%,Northwestern,3.20%,Northwestern,1.10%,Illinois,0.50%,Illinois,0.20%
+West Virginia,45.60%,VCU,8.90%,USC,3.20%,Illinois,1.10%,West Virginia,0.40%,Iowa,0.20%
+Illinois,41.90%,USC,8.60%,Illinois,2.70%,Maryland,1.00%,Oral Roberts,0.40%,Maryland,0.20%
+Penn State,39.80%,Oral Roberts,8.20%,NC State,2.60%,Oral Roberts,1.00%,Northwestern,0.40%,NC State,0.20%
+USC,38.50%,Auburn,8.20%,West Virginia,2.50%,West Virginia,0.90%,Maryland,0.40%,Oral Roberts,0.20%
+Utah State,35.90%,Arkansas,7.90%,Providence,2.40%,USC,0.90%,NC State,0.40%,Howard,0.20%
+Boise St,35.30%,Iowa,7.90%,Oral Roberts,2.40%,NC State,0.90%,USC,0.30%,Northwestern,0.20%
+NC State,32.10%,Drake,7.60%,Maryland,2.30%,Providence,0.70%,Howard,0.30%,USC,0.10%
+VCU,31.70%,MSST/PITT,6.20%,Utah State,1.90%,FAU,0.70%,FAU,0.30%,N Kentucky,0.10%
+Charleston,30.30%,Kent State,6.20%,FAU,1.70%,Howard,0.70%,Providence,0.30%,Providence,0.10%
+FAU,27.90%,Iona,5.70%,Drake,1.70%,N Kentucky,0.60%,N Kentucky,0.30%,Charleston,0.10%
+Providence,27.70%,Illinois,5.60%,VCU,1.60%,Charleston,0.60%,Boise St,0.30%,FAU,0.10%
+Drake,22.90%,Utah State,5.30%,Boise St,1.60%,Drake,0.60%,Charleston,0.30%,Utah State,0.10%
+MSST/PITT,22.50%,Furman,5.30%,Charleston,1.50%,VCU,0.60%,VCU,0.30%,Boise St,0.10%
+Oral Roberts,18.10%,West Virginia,5.10%,Kent State,1.50%,Boise St,0.60%,TXSO/FDU,0.30%,Drake,0.10%
+Kent State,17.50%,Boise St,5.10%,Colgate,1.50%,Utah State,0.60%,Utah State,0.20%,MSST/PITT,0.10%
+Louisiana,16.30%,Maryland,4.80%,Vermont,1.40%,TXSO/FDU,0.50%,Drake,0.20%,VCU,0.10%
+Furman,15.70%,FAU,4.30%,Princeton,1.40%,AMCC/SMO,0.50%,AMCC/SMO,0.20%,Kent State,0.10%
+ASU/NEV,15.60%,Kennesaw St,3.80%,MSST/PITT,1.40%,Kent State,0.50%,MSST/PITT,0.20%,Kennesaw St,0.10%
+Iona,14.40%,Louisiana,3.60%,UNC Asheville,1.30%,MSST/PITT,0.50%,Kent State,0.20%,Grand Canyon,0.10%
+Kennesaw St,9.70%,UCSB,3.60%,Iona,1.30%,Colgate,0.50%,UNC Asheville,0.20%,Princeton,0.10%
+Montana St,9.70%,ASU/NEV,3.50%,Howard,1.20%,Iona,0.50%,Iona,0.20%,UNC Asheville,0.10%
+UCSB,9.70%,Montana St,3.30%,ASU/NEV,1.10%,Princeton,0.50%,Grand Canyon,0.20%,AMCC/SMO,0.10%
+Vermont,7.60%,Grand Canyon,3.10%,N Kentucky,1.10%,Vermont,0.50%,Vermont,0.20%,ASU/NEV,0.10%
+Grand Canyon,7.30%,Vermont,3.00%,Furman,1.10%,UNC Asheville,0.50%,Colgate,0.20%,Furman,0.10%
+Colgate,7.00%,Colgate,3.00%,Kennesaw St,1.10%,Furman,0.40%,ASU/NEV,0.20%,Louisiana,0.10%
+Princeton,6.70%,Princeton,3.00%,UCSB,1.10%,ASU/NEV,0.40%,Furman,0.20%,Iona,0.10%
+UNC Asheville,6.30%,UNC Asheville,2.90%,Louisiana,1.10%,Louisiana,0.40%,Louisiana,0.20%,UCSB,0.10%
+N Kentucky,4.80%,Howard,2.30%,Grand Canyon,1.10%,Kennesaw St,0.40%,Kennesaw St,0.20%,Vermont,0.10%
+Howard,4.70%,N Kentucky,2.20%,Montana St,1.10%,Grand Canyon,0.40%,Princeton,0.20%,Colgate,0.10%
+TXSO/FDU,3.90%,TXSO/FDU,1.80%,TXSO/FDU,0.90%,UCSB,0.40%,UCSB,0.20%,TXSO/FDU,0.10%
+AMCC/SMO,3.40%,AMCC/SMO,1.60%,AMCC/SMO,0.90%,Montana St,0.40%,Montana St,0.20%,Montana St,0.10%
