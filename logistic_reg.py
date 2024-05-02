@@ -10,8 +10,8 @@ def load_data(file_path):
     return pd.read_csv(file_path)
 
 def preprocess_data(df):
-    X = df.drop(columns=['OUTCOME', "TEAM", "ROUND", "BY YEAR NO", "BY ROUND NO", "SCORE"])
-    y = df['OUTCOME']
+    X = df.drop(columns=['OUTCOME', "TEAM", "ROUND", "BY YEAR NO", "BY ROUND NO", "SCORE", "UPSET"])
+    y = df['UPSET']
     print(X.head())
     return X, y
 
@@ -39,7 +39,6 @@ def evaluate_model(model, X_test, y_test, incorrect_sample_size=5, correct_sampl
         print("Predicted Label:", predicted)
         print("-------------")
 
-    # Random correct predictions
     correct_indices = (y_pred == y_test)
     correct_predictions = X_test[correct_indices]
     actual_labels_correct = y_test[correct_indices]
@@ -50,7 +49,7 @@ def evaluate_model(model, X_test, y_test, incorrect_sample_size=5, correct_sampl
         random_correct_indices = np.random.choice(len(correct_predictions), correct_sample_size, replace=False)
         for i, index in enumerate(random_correct_indices):
             instance = correct_predictions[index]
-            actual = actual_labels_correct.iloc[index]  # Use iloc to access by integer position
+            actual = actual_labels_correct.iloc[index]  
             predicted = predicted_labels_correct[index]
             print(f"Instance {i+1}:")
             print("Features:", instance)
@@ -86,8 +85,6 @@ def main(file_path):
 
     evaluate_model(model, X_test_scaled, y_test)
 
-
-
 if __name__ == "__main__":
-    file_path = "matchups.csv"
+    file_path = "matchups_combined.csv"
     main(file_path)
