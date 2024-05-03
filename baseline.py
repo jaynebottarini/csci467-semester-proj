@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_score
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_score, f1_score
 import random
 
 def load_data(file_path):
@@ -83,10 +83,10 @@ def evaluate_model(X, y):
     precision_l = count_correct_l / count_num_l
     
     print("accuracy:", count_correct / len(y_pred))
+    f1 = f1_score(y, y_pred, average='weighted')
+    print("f1-score:", f1)
     print("precision for win:", precision_w)
     print("precision for loss:", precision_l)
-
-
     print("Classification Report:")
     print(classification_report(y, y_pred))
     print("Confusion Matrix:")

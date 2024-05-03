@@ -5,14 +5,17 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
+
 
 def load_data(file_path):
     return pd.read_csv(file_path)
 
 def preprocess_data(df):
-    X = df.drop(columns=['OUTCOME', "TEAM", "ROUND", "BY YEAR NO", "BY ROUND NO", "SCORE", "UPSET"])
-    y = df['UPSET']
+    X = df.drop(columns=['OUTCOME', "TEAM", "ROUND", "BY YEAR NO", "BY ROUND NO", "SCORE"])
+    y = df['OUTCOME']
     print(X.head())
+    print(X.shape)
     return X, y
 
 def evaluate_model(model, X_test, y_test, incorrect_sample_size=5, correct_sample_size=5):
@@ -86,5 +89,5 @@ def main(file_path):
     evaluate_model(model, X_test_scaled, y_test)
 
 if __name__ == "__main__":
-    file_path = "matchups_combined.csv"
+    file_path = "matchups.csv"
     main(file_path)
